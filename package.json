@@ -1,0 +1,81 @@
+{
+  "name": "dotai",
+  "displayName": "dotai",
+  "description": "通过本地 .dotai 镜像管理 AI 代理扩展，并生成原生 AGENTS.md / CLAUDE.md 文件。",
+  "version": "0.0.1",
+  "publisher": "xingxiaolin",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "ai",
+    "claude",
+    "codex",
+    "agents",
+    "prompt",
+    "instructions"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onCommand:dotai.initProject",
+    "onCommand:dotai.status",
+    "onCommand:dotai.renderClaude",
+    "onCommand:dotai.renderCodex",
+    "onCommand:dotai.importManagedTarget"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "dotai.initProject",
+        "title": "dotai: 初始化项目镜像"
+      },
+      {
+        "command": "dotai.status",
+        "title": "dotai: 查看状态"
+      },
+      {
+        "command": "dotai.renderClaude",
+        "title": "dotai: 生成 CLAUDE.md"
+      },
+      {
+        "command": "dotai.renderCodex",
+        "title": "dotai: 生成 AGENTS.md"
+      },
+      {
+        "command": "dotai.importManagedTarget",
+        "title": "dotai: 导入受管目标文件"
+      }
+    ],
+    "configuration": {
+      "title": "dotai",
+      "properties": {
+        "dotai.userMirrorPath": {
+          "type": "string",
+          "default": "~/.dotai",
+          "description": "用户级 dotai 镜像路径，后续可用于个人扩展库场景。"
+        },
+        "dotai.defaultRenderMode": {
+          "type": "string",
+          "enum": [
+            "managed-copy",
+            "copy"
+          ],
+          "default": "managed-copy",
+          "description": "dotai 生成目标文件时采用的落地方式。"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "check": "node --check extension.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaolinstar/dotai"
+  }
+}

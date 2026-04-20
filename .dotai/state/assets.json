@@ -1,0 +1,12 @@
+{
+  "assets": [
+    {
+      "id": "asset:project-defaults.md",
+      "kind": "rule",
+      "title": "Project Defaults",
+      "file": "rules/project-defaults.md",
+      "hash": "c7c37431753012eeeb6489ec6790fc2277a85419c76f0ba60fea4e68bbc86ea2",
+      "updatedAt": "2026-04-15T14:20:30.957Z"
+    }
+  ]
+}

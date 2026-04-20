@@ -1,0 +1,9 @@
+docs/**
+examples/**
+.git/**
+.gitignore
+.idea/**
+README-marketplace.md
+.dotai/**
+AGENTS.md
+CLAUDE.md

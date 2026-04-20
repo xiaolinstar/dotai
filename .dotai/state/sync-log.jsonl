@@ -1,0 +1,3 @@
+{"at":"2026-04-15T14:20:30.957Z","operation":"init","result":"ok","details":[".dotai/rules/project-defaults.md"]}
+{"at":"2026-04-15T14:21:38.693Z","operation":"render","target":"claude","result":"ok","destination":"CLAUDE.md"}
+{"at":"2026-04-15T14:22:27.938Z","operation":"render","target":"codex","result":"ok","destination":"AGENTS.md"}

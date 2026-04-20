@@ -1,0 +1,28 @@
+{
+  "assets": [
+    {
+      "id": "asset:agents-md-import.md",
+      "kind": "rule",
+      "title": "Imported AGENTS baseline",
+      "file": "rules/agents-md-import.md",
+      "hash": "2edb0efad9b64f3e95003fe5cf7846ea996186c971ce813a97f74d17349003c1",
+      "updatedAt": "2026-04-15T14:29:04.932Z"
+    },
+    {
+      "id": "asset:claude-md-20260415-142904.md",
+      "kind": "rule",
+      "title": "Imported from CLAUDE.md",
+      "file": "rules/claude-md-20260415-142904.md",
+      "hash": "3915a58c050af97c2177cde070fbee3f86815e55d3217ca8ac49cc08c0cd8ff7",
+      "updatedAt": "2026-04-15T14:29:04.932Z"
+    },
+    {
+      "id": "asset:claude-md-import.md",
+      "kind": "rule",
+      "title": "Imported CLAUDE baseline",
+      "file": "rules/claude-md-import.md",
+      "hash": "39970a7744126ad2e017941a7da4685ad1b831b3af3744402b7fd32dbafc34c8",
+      "updatedAt": "2026-04-15T14:29:04.932Z"
+    }
+  ]
+}

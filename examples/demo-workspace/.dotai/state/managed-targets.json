@@ -1,0 +1,32 @@
+{
+  "targets": [
+    {
+      "id": "codex:/Users/xlxing/CodexProjects/dotai/examples/demo-workspace/AGENTS.md",
+      "targetKind": "codex",
+      "path": "/Users/xlxing/CodexProjects/dotai/examples/demo-workspace/AGENTS.md",
+      "materializationMode": "managed-copy",
+      "sourceAssetIds": [
+        "asset:agents-md-import.md",
+        "asset:claude-md-import.md"
+      ],
+      "lastRenderFingerprint": "4cfce574aa8bbb4f707e80fce8e3a35d44eca1e01b6d32f3ba15905f726fb515",
+      "lastRenderedAt": "2026-04-15T14:26:00.234Z",
+      "rendererVersion": "0.0.1"
+    },
+    {
+      "id": "claude:/Users/xlxing/CodexProjects/dotai/examples/demo-workspace/CLAUDE.md",
+      "targetKind": "claude",
+      "path": "/Users/xlxing/CodexProjects/dotai/examples/demo-workspace/CLAUDE.md",
+      "materializationMode": "managed-copy",
+      "sourceAssetIds": [
+        "asset:agents-md-import.md",
+        "asset:claude-md-import.md"
+      ],
+      "lastRenderFingerprint": "39673eb22e50d873b73d1c109540f22c2a44a71391194ba8e24858249f425332",
+      "lastRenderedAt": "2026-04-15T14:26:31.550Z",
+      "rendererVersion": "0.0.1",
+      "lastImportedAt": "2026-04-15T14:29:04.932Z",
+      "lastImportedFingerprint": "c0ffbd3ae5cc28a9ba0387cd14fbc498ad5d5e96b88b153df70a2ff6fd2621a9"
+    }
+  ]
+}

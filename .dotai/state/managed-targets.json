@@ -1,0 +1,28 @@
+{
+  "targets": [
+    {
+      "id": "codex:/Users/xlxing/CodexProjects/dotai/AGENTS.md",
+      "targetKind": "codex",
+      "path": "/Users/xlxing/CodexProjects/dotai/AGENTS.md",
+      "materializationMode": "managed-copy",
+      "sourceAssetIds": [
+        "asset:project-defaults.md"
+      ],
+      "lastRenderFingerprint": "533e5216f738f4c6e4ea6df3db6db264d63cffd7e317a143ce8c5a12bf0bd2b4",
+      "lastRenderedAt": "2026-04-15T14:22:27.937Z",
+      "rendererVersion": "0.0.1"
+    },
+    {
+      "id": "claude:/Users/xlxing/CodexProjects/dotai/CLAUDE.md",
+      "targetKind": "claude",
+      "path": "/Users/xlxing/CodexProjects/dotai/CLAUDE.md",
+      "materializationMode": "managed-copy",
+      "sourceAssetIds": [
+        "asset:project-defaults.md"
+      ],
+      "lastRenderFingerprint": "475ac5839e4d304ba3849bc8f0af133373d8b7519fd32485f22db0e7f2c8ac1b",
+      "lastRenderedAt": "2026-04-15T14:21:38.693Z",
+      "rendererVersion": "0.0.1"
+    }
+  ]
+}

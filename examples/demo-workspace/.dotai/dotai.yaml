@@ -1,0 +1,16 @@
+version: 0.1
+
+workspace:
+  name: current-workspace
+
+targets:
+  codex:
+    enabled: true
+    output: AGENTS.md
+  claude:
+    enabled: true
+    output: CLAUDE.md
+
+sync:
+  mode: bidirectional
+  render_mode: managed-copy

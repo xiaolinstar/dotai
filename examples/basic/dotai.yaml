@@ -1,0 +1,45 @@
+version: 0.1
+
+workspace:
+  name: sample-repo
+
+targets:
+  codex:
+    enabled: true
+    output: AGENTS.md
+  claude:
+    enabled: true
+    output: CLAUDE.md
+    skills_dir: .claude/skills
+
+rules:
+  - id: personal-code-style
+    title: Personal code style
+    file: rules/personal-code-style.md
+    scope: user
+    priority: 10
+    targets: [codex, claude]
+
+  - id: repo-conventions
+    title: Repository conventions
+    file: rules/repo-conventions.md
+    scope: project
+    priority: 20
+    targets: [codex, claude]
+
+  - id: frontend-overrides
+    title: Frontend subtree overrides
+    file: rules/frontend-overrides.md
+    scope: path
+    path: apps/web
+    priority: 30
+    targets: [codex, claude]
+
+skills:
+  - id: release-helper
+    source: skills/release-helper
+    scope: project
+    targets: [claude]
+
+promotion:
+  strategy: copy-with-provenance

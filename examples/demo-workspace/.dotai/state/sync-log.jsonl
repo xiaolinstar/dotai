@@ -1,0 +1,4 @@
+{"at":"2026-04-15T14:25:04.241Z","operation":"init","result":"ok","details":[".dotai/rules/agents-md-import.md",".dotai/rules/claude-md-import.md"]}
+{"at":"2026-04-15T14:26:00.235Z","operation":"render","target":"codex","result":"ok","destination":"AGENTS.md"}
+{"at":"2026-04-15T14:26:31.550Z","operation":"render","target":"claude","result":"ok","destination":"CLAUDE.md"}
+{"at":"2026-04-15T14:29:04.933Z","operation":"import","source":"CLAUDE.md","destination":".dotai/rules/claude-md-20260415-142904.md","result":"ok"}
