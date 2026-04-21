@@ -4,7 +4,12 @@
   "description": "通过本地 .dotai 镜像管理 AI 代理扩展，并生成原生 AGENTS.md / CLAUDE.md 文件。",
   "version": "0.0.1",
   "publisher": "xingxiaolin",
+  "icon": "images/dotai_256.png",
   "license": "MIT",
+  "homepage": "https://github.com/xiaolinstar/dotai",
+  "bugs": {
+    "url": "https://github.com/xiaolinstar/dotai/issues"
+  },
   "engines": {
     "vscode": "^1.90.0"
   },
@@ -19,6 +24,10 @@
     "prompt",
     "instructions"
   ],
+  "galleryBanner": {
+    "color": "#0F172A",
+    "theme": "dark"
+  },
   "activationEvents": [
     "onStartupFinished",
     "onCommand:dotai.initProject",
