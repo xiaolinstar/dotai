@@ -6,6 +6,7 @@
   "publisher": "xingxiaolin",
   "icon": "images/dotai_256.png",
   "license": "SEE LICENSE IN LICENSE",
+  "packageManager": "pnpm@9.10.0",
   "homepage": "https://github.com/xiaolinstar/dotai",
   "bugs": {
     "url": "https://github.com/xiaolinstar/dotai/issues"
